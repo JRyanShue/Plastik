@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import './FileUploadBox.css';
-import STLViewer from './STLViewer';
+import './EditorBox.css';
+import {STLViewer} from './STLViewer';
+import StagnantSTLViewer from './StagnantSTLViewer';
 
-const FileUploadBox = () => {
+const EditorBox = () => {
   const handleFileUpload = (event) => {
     // Handle the file upload logic here
     const file = event.target.files[0];
@@ -59,9 +60,9 @@ const FileUploadBox = () => {
       {/* <p>Add constraint files</p> */}
       {/* <input type="file" onChange={e => console.log('File uploaded:', e.target.files[0])} /> */}
 
-      <STLViewer stlFile={'resources/cad.STL'} />
+      <StagnantSTLViewer stlFile={'resources/exploded.STL'} />
     </div>
   );
 };
 
-export default FileUploadBox;
+export default EditorBox;

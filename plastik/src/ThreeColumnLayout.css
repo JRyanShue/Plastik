@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 100%; /* Adjust as needed */
+
+    color: white;
+    font-size: 25px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px; /* Adjust padding as needed */
+    /* Add more styling for your columns here */
+  }
+  
+  .divider {
+    width: 1px; /* Adjust the thickness of the line */
+    background-color: white; /* Adjust the color as needed */
+  }
+  

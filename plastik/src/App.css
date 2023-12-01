@@ -57,3 +57,14 @@
   flex: 2; /* Take up 2/3 */
   padding: 10px; /* Add some padding */
 }
+
+.left-panel-after {
+  flex: 0.67; /* Take up 2/9 */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.right-panel-after {
+  flex: 2.33; /* Take up 7/9 */
+  padding: 10px;
+}

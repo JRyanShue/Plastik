@@ -49,7 +49,7 @@ function StagnantSTLModel({ url }) {
         const material = new THREE.MeshNormalMaterial();
         const mesh = new THREE.Mesh(geometry, material);
         
-        const scale = 0.04;
+        const scale = 0.02;
         mesh.scale.set(scale, scale, scale);
         setModel(mesh);
       });
@@ -58,7 +58,7 @@ function StagnantSTLModel({ url }) {
     useFrame(() => {
       if (ref.current) {
       //   ref.current.rotation.x += 0.01;
-        // ref.current.rotation.y += 0.01;
+        // ref.current.rotation.y += 0.001;
       }
     });
   
@@ -75,4 +75,4 @@ function StagnantSTLModel({ url }) {
     );
   }
 
-export default STLViewer; 
+export default StagnantSTLViewer; 
