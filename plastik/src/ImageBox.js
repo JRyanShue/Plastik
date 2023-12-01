@@ -3,12 +3,12 @@ import './ImageBox.css';
 
 const ImageBox = () => {
   const images = [
-    'resources/r1.JPG', // Replace with your image paths or URLs
-    'image2.jpg',
-    'image3.jpg',
-    'image4.jpg',
-    'image5.jpg',
-    'image6.jpg'
+    'resources/r1.jpg', // Replace with your image paths or URLs
+    'resources/r2.jpg',
+    'resources/r3.jpg',
+    'resources/r2.jpg',
+    'resources/r2.jpg',
+    'resources/r2.jpg'
   ];
 
   return (

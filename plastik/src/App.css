@@ -42,7 +42,7 @@
   align-items: stretch; /* Stretch the child elements to fill the height */
   height: 100vh; /* Full viewport height */
   gap: 20px; /* Spacing between panels */
-  background-color: #FFFFFF; /* Highlight color */
+  background-color: #11112e; /* Highlight color */
   color: #000000; /* Text color */
   border-radius: 10px; /* Rounded edges for the overall app layout */
 }

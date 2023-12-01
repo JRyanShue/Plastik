@@ -1,9 +1,11 @@
 .image-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three columns */
+    grid-template-rows: repeat(2, 1fr);
     height: 91%; /* Full height of the container */
     position: absolute;
     top: 20px;
     margin-left: 50px;
-    display: flex;
     flex-wrap: wrap;
     width: 59.5%;
     padding: 10px;
@@ -15,10 +17,11 @@
   }
   
   .image-box img {
-    flex: 1 1 auto; /* Flexible grow and shrink */
-    max-width: calc(50% - 10px); /* Adjust based on gap and number of images per row */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #FFA500; /* Accent color for image borders */
-    border-radius: 5px; /* Slightly rounded edges for images */
+    /*flex: 1 1 auto; /* Flexible grow and shrink */
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    /* border: 2px solid #FFA500; */
+    object-fit: cover;
+    border-radius: 10px; /* Slightly rounded edges for images */
   }
   

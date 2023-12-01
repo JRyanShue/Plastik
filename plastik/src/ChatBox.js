@@ -32,9 +32,9 @@ const ChatBox = () => {
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
-            placeholder="Type a message..."
+            placeholder="Add a constraint..."
             />
-            <button onClick={handleSend}>Send</button>
+            <button onClick={handleSend}>Add</button>
         </div>
         </div>
     </>

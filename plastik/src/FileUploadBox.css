@@ -1,8 +1,7 @@
 .file-upload-box {
     margin-top: 65px; /* Spacing from the chat box */
-    width: 103%;
+    width: 103.4%;
     height: 50.8%;
-    border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: white;
@@ -11,12 +10,14 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 
-    border: 2px dashed #ccc; /* Change to dashed border */
+    border: 2px dashed dimgray; /* Change to dashed border */
     position: relative; /* Needed for positioning the input */
 
-    border-color: #003366; /* Primary color */
-    background-color: #C0C0C0; /* Secondary color */
+    background-color: #16163b; /* Secondary color */
     border-radius: 10px; /* Rounded edges */
+
+    color: white;
+    font-size: 25px;
   }
   
   .file-upload-box.dragging {
@@ -34,4 +35,3 @@
     left: 0;
     cursor: pointer;
   }
-  

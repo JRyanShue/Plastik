@@ -5,8 +5,9 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 33.5%;
-    border: 1px solid #ccc;
+    width: 35%;
+    height: 35.5%;
+    border: 1px solid dimgray;
     padding: 10px;
     padding-top: 0; /* Remove left padding */
     padding-left: 0; /* Remove left padding */
@@ -14,11 +15,10 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     color: rgb(32,32,32); /* Update text color here */
 
-    background-color: #003366; /* Primary color */
+    background-color: #16163b; /* Primary color */
     color: #000000; /* Text color */
 
-    border-top-left-radius: 10px; /* Rounded edges */
-    border-top-right-radius: 10px; /* Rounded edges */
+    border-radius: 10px;
   }
   
   .messages {
@@ -26,12 +26,15 @@
     overflow-y: auto;
     margin-bottom: 10px;
     padding: 5px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    border-top: 0px solid dimgray;
     background-color: #f9f9f9;
 
-    background-color: #C0C0C0; /* Secondary color */
+    background-color: #16163b; /* Secondary color */
 
-    border-radius: 10px; /* Rounded edges */
+    border-radius: 0px;
+    border-top-left-radius: 10px; /* Rounded edges */
+    border-top-right-radius: 10px; /* Rounded edges */
 
   }
   
@@ -55,7 +58,7 @@
     top: 250px; /* Adjust this based on the height of your chat box */
     left: 20px;
     width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid dimgray;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: white;
@@ -72,11 +75,15 @@
   .input-area input[type="text"] {
     flex-grow: 1; /* Makes the input field expand to fill available space */
     margin-right: 10px; /* Adds some space between the input field and the button */
-
+    margin-left: 10px;
+    margin-top: 5px;
+    
     border: 1px solid #708090; /* Complementary color for the border */
   }
 
   .input-area button {
+    margin-top: 5px;
+    margin-right: 10px;
     background-color: #FFA500; /* Accent color */
     color: #FFFFFF; /* Highlight color for text */
   }

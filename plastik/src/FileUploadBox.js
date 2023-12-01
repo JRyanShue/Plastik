@@ -48,12 +48,16 @@ const FileUploadBox = () => {
 
     <div 
       className={`file-upload-box ${dragging ? 'dragging' : ''}`}
-      onDragEnter={handleDragEnter}
-      onDragLeave={handleDragLeave}
-      onDragOver={handleDragOver}
-      onDrop={handleDrop}
+    //   onDragEnter={handleDragEnter}
+    //   onDragLeave={handleDragLeave}
+    //   onDragOver={handleDragOver}
+    //   onDrop={handleDrop}
     >
-      Add constraint files
+      {/* <i className="fa fa-upload fa-3x"></i> Upload icon */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>Add constraint files</p>
       <input type="file" onChange={e => console.log('File uploaded:', e.target.files[0])} />
     </div>
   );
