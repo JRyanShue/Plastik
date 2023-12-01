@@ -1,0 +1,13 @@
+.file-upload-box {
+    margin-top: 100px; /* Spacing from the chat box */
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+  }
+  
+  .file-upload-box input[type="file"] {
+    width: 100%;
+  }
+  
