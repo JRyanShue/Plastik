@@ -27,13 +27,15 @@ const ChatBox = () => {
             <p key={index}>{msg}</p>
             ))}
         </div>
-        <input
+        <div className="input-area">
+            <input
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
             placeholder="Type a message..."
-        />
-        <button onClick={handleSend}>Send</button>
+            />
+            <button onClick={handleSend}>Send</button>
+        </div>
         </div>
     </>
   );

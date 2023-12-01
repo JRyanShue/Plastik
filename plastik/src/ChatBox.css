@@ -1,12 +1,24 @@
 .chat-box {
+    flex: 1; /* Take available space */
+    overflow-y: auto; /* Scroll if content overflows */
+    margin-bottom: 10px;
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 300px;
+    width: 33.5%;
     border: 1px solid #ccc;
     padding: 10px;
+    padding-top: 0; /* Remove left padding */
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     color: rgb(32,32,32); /* Update text color here */
+
+    background-color: #003366; /* Primary color */
+    color: #000000; /* Text color */
+
+    border-top-left-radius: 10px; /* Rounded edges */
+    border-top-right-radius: 10px; /* Rounded edges */
   }
   
   .messages {
@@ -16,6 +28,11 @@
     padding: 5px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
+
+    background-color: #C0C0C0; /* Secondary color */
+
+    border-radius: 10px; /* Rounded edges */
+
   }
   
   .messages p {
@@ -25,6 +42,7 @@
   input[type="text"] {
     width: calc(100% - 60px);
     padding: 5px;
+    border-radius: 5px; /* Rounded edges */
   }
   
   button {
@@ -45,4 +63,24 @@
   
   .file-upload-box input[type="file"] {
     width: 100%;
+  }
+
+  .input-area {
+    display: flex; /* Aligns child elements in a row */
+  }
+  
+  .input-area input[type="text"] {
+    flex-grow: 1; /* Makes the input field expand to fill available space */
+    margin-right: 10px; /* Adds some space between the input field and the button */
+
+    border: 1px solid #708090; /* Complementary color for the border */
+  }
+
+  .input-area button {
+    background-color: #FFA500; /* Accent color */
+    color: #FFFFFF; /* Highlight color for text */
+  }
+
+  .input-area input[type="text"], .input-area button {
+    border-radius: 5px; /* Slightly rounded edges for input and button */
   }

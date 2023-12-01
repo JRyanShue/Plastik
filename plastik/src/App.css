@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  display: flex;
+  align-items: stretch; /* Stretch the child elements to fill the height */
+  height: 100vh; /* Full viewport height */
+  gap: 20px; /* Spacing between panels */
+  background-color: #FFFFFF; /* Highlight color */
+  color: #000000; /* Text color */
+  border-radius: 10px; /* Rounded edges for the overall app layout */
+}
+
+.left-panel {
+  flex: 1; /* Take up 1/3 */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.right-panel {
+  flex: 2; /* Take up 2/3 */
+  padding: 10px; /* Add some padding */
+}
