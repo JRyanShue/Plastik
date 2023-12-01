@@ -13,7 +13,7 @@ function STLModel({ url }) {
       const material = new THREE.MeshNormalMaterial();
       const mesh = new THREE.Mesh(geometry, material);
       
-      const scale = 0.08;
+      const scale = 0.04;
       mesh.scale.set(scale, scale, scale);
       setModel(mesh);
     });

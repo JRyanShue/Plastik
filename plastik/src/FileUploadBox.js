@@ -59,7 +59,7 @@ const FileUploadBox = () => {
       {/* <p>Add constraint files</p> */}
       <input type="file" onChange={e => console.log('File uploaded:', e.target.files[0])} />
 
-      <STLViewer stlFile={'resources/3DBenchy.stl'} />
+      <STLViewer stlFile={'resources/cad.STL'} />
     </div>
   );
 };
