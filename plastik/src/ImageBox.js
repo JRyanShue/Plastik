@@ -12,11 +12,19 @@ const ImageBox = () => {
   ];
 
   return (
-    <div className="image-box">
-      {images.map((img, index) => (
-        <img key={index} src={img} alt={`img-${index}`} />
-      ))}
+    <div>
+        <h2 className="image-box-header">Generated Designs</h2>
+        <div className="image-box">
+        {images.map((img, index) => (
+            <img key={index} src={img} alt={`img-${index}`} />
+        ))}
+        </div>
     </div>
+
+    // <div className="image-box">
+    //     {/* <h2 className="image-box-header">Generated Designs</h2> */}
+    //     <button className="generate-button">Generate</button>
+    // </div>
   );
 };
 

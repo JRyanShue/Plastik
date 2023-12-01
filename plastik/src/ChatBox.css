@@ -6,7 +6,7 @@
     top: 20px;
     left: 20px;
     width: 35%;
-    height: 35.5%;
+    height: 25%;
     border: 1px solid dimgray;
     padding: 10px;
     padding-top: 0; /* Remove left padding */
@@ -22,7 +22,7 @@
   }
   
   .messages {
-    height: 200px;
+    height: 70%;
     overflow-y: auto;
     margin-bottom: 10px;
     padding: 5px;
@@ -36,6 +36,8 @@
     border-top-left-radius: 10px; /* Rounded edges */
     border-top-right-radius: 10px; /* Rounded edges */
 
+    color: white;
+    font-size: 22px;
   }
   
   .messages p {
@@ -84,7 +86,7 @@
   .input-area button {
     margin-top: 5px;
     margin-right: 10px;
-    background-color: #FFA500; /* Accent color */
+    background-color: #3636c7; /* Accent color */
     color: #FFFFFF; /* Highlight color for text */
   }
 

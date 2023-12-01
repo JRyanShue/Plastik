@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FileUploadBox.css';
+import STLViewer from './STLViewer';
 
 const FileUploadBox = () => {
   const handleFileUpload = (event) => {
@@ -54,11 +55,11 @@ const FileUploadBox = () => {
     //   onDrop={handleDrop}
     >
       {/* <i className="fa fa-upload fa-3x"></i> Upload icon */}
-      <br></br>
-      <br></br>
-      <br></br>
-      <p>Add constraint files</p>
+      
+      {/* <p>Add constraint files</p> */}
       <input type="file" onChange={e => console.log('File uploaded:', e.target.files[0])} />
+
+      <STLViewer stlFile={'resources/3DBenchy.stl'} />
     </div>
   );
 };

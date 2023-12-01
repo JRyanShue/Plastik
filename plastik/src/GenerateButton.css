@@ -1,0 +1,21 @@
+.generate-button {
+    position: fixed; /* Fixed position relative to the viewport */
+    bottom: 25px; /* Position from the bottom */
+    left: 21px; /* Position from the left */
+    padding: 20px 60px;
+    font-size: 16px;
+    color: white; /* Text color to match other components */
+    background-color: #3636c7; /* Background color to match other components */
+    /* border: 2px solid dimgray; Border color to match FileUploadBox */
+    border-radius: 10px; /* Rounded edges to match other components */
+    cursor: pointer;
+    z-index: 10; /* Ensure it's above other elements */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Shadow to match other components */
+    height: 25px;
+
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+
+    font-size: 16px;
+  }
+  
